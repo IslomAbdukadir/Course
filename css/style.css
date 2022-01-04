@@ -381,6 +381,7 @@ a {
 .info__lists {
     display: flex;
     justify-content: space-around;
+    column-gap: 100px;
 }
 
 .info__item {
@@ -448,11 +449,13 @@ a {
     cursor: pointer;
 }
 
-.key {
+.key,
+.btn {
     padding: 8px 15px;
     border: 2px solid #FFF;
     border-radius: 30px;
     letter-spacing: 2px;
+    color: #fff;
 }
 
 
@@ -518,3 +521,11 @@ iframe {
 }
 
 /* lesson end */
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    padding: 30px 0;
+}

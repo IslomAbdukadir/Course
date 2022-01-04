@@ -467,7 +467,8 @@ a {
 
 #lesson .container {
     display: flex;
-    gap: 100px;
+    column-gap: 100px;
+    flex-flow: wrap;
 }
 
 .lesson__list {
@@ -527,5 +528,5 @@ iframe {
     align-items: center;
     justify-content: center;
     column-gap: 50px;
-    padding: 30px 0;
+    padding: 30px 30%;
 }
